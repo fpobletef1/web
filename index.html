@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first web</title>
+    <!--aplicando bordes a la tabla-->
+    <style> 
+        table, th, tr, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mouse</td>
+                <td>$12.990</td>
+            </tr>
+            <tr>
+                <td>Audifonos</td>
+                <td>$25.990</td>
+            </tr>
+            <tr>
+                <td>Tarjeta SD</td>
+                <td>$22.990</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>    </td>
+            <td>Total: $61.970</td>
+        </tfoot>
+    </table>
+    <!--Lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--Lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+    <hr>
+    <form action="/formulario" method="get">
+        <!--Titulo de la casilla-->
+        <label for="nombre">Nombre</label>
+        <input id envia="nombre" name="nombre" type="text" placeholder="ingrese su nombre"/>
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input id="apellido" name="apellido" type="text" placeholder="ingrese su apellido"/>
+        <br><br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario"  type="text" placeholder="ingresa tu comentario"></textarea>
+        <br><br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form> 
+        <hr>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr>
+        <p>Feliz</p>
+        <p>Triste</p>
+        <hr>
+</body>
+</html>
